@@ -6,7 +6,10 @@
 #   Ubuntu: apt install sshpass
 #   RHEL-ish: yum install sshpass
 #
-# It looks for the password in the SSHPASS environment variable and will emit it to the server when prompted.
+# Two options are presented below. If an external program needs to perform the decryption,
+# capture the plain text into an environment variable.
+#
+# If the secret is readable directly, have sshpass get the content from the file.
 #
 
 # Setup
